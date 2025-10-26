@@ -253,15 +253,15 @@ Based on EPA Air Quality Index standards:
 ## 📸 Screenshots
 
 ### 1. Exploratory Data Analysis
-![EDA Dashboard](assets/screenshot_eda.png)
+![EDA Dashboard](assets/screenshot_eda1.png)(assets/screenshot_eda2.png)(assets/screenshot_eda3.png)
 *Interactive visualizations showing temporal trends, geographic distribution, and pollutant correlations*
 
 ### 2. Model Training & Evaluation
-![Model Performance](assets/screenshot_model.png)
+![Model Performance](assets/screenshot_model1.png)(assets/screenshot_model2.png)
 *Model metrics, feature importance, and prediction vs actual comparison*
 
 ### 3. Custom Prediction Interface
-![Prediction Interface](assets/screenshot_predict.png)
+![Prediction Interface](assets/screenshot_predict1.png)(assets/screenshot_predict2.png)
 *User input form for custom PM2.5 predictions with real-time results*
 
 ---
