@@ -1,0 +1,41 @@
+{
+  "dataset_name": "Urban Air Quality and Climate Dataset",
+  "version": "2.0",
+  "creation_date": "2025-01-15",
+  "last_updated": "2025-01-20",
+  "total_records": 150000,
+  "file_size_mb": 25.6,
+  "license": "CC0 1.0 Universal (Public Domain)",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  
+  "description": "Comprehensive global urban air quality dataset spanning 1958-2025, containing PM2.5 and NO2 measurements from major cities worldwide.",
+  
+  "file_components": {
+    "filename": "air_quality_global.csv",
+    "format": "CSV",
+    "encoding": "UTF-8",
+    "delimiter": ",",
+    "columns": [
+      "city",
+      "country",
+      "latitude",
+      "longitude",
+      "year",
+      "month",
+      "pm25_ugm3",
+      "no2_ugm3",
+      "data_quality",
+      "measurement_method",
+      "data_source"
+    ]
+  },
+  
+  "column_descriptions": {
+    "city": "Name of the urban center where measurements were taken",
+    "country": "Country code or name",
+    "latitude": "Geographic latitude in decimal degrees",
+    "longitude": "Geographic longitude in decimal degrees",
+    "year": "Year of measurement (1958-2025)",
+    "month": "Month of measurement (1-12)",
+    "pm25_ugm3": "PM2.5 particulate matter concentration in micrograms per cubic meter",
+    "no2_ugm3": "Nitrogen dioxide concentration
