@@ -253,8 +253,19 @@ Based on EPA Air Quality Index standards:
 ## 📸 Screenshots
 
 ### 1. Exploratory Data Analysis
-<p float="left" align="center"> <img src="assets/screenshot_eda1.png" width="45%" alt="EDA Dashboard 1"/> <img src="assets/screenshot_eda2.png" width="45%" alt="EDA Dashboard 2"/> </p> <p float="left" align="center"> <img src="assets/screenshot_eda3.png" width="45%" alt="EDA Dashboard 3"/> 
-*Interactive visualizations showing temporal trends, geographic distribution, and pollutant correlations*
+
+<div align="center">
+<p float="left">
+  <img src="assets/screenshot_eda1.png" width="45%" alt="EDA Dashboard 1" style="margin: 10px;"/>
+  <img src="assets/screenshot_eda2.png" width="45%" alt="EDA Dashboard 2" style="margin: 10px;"/>
+</p>
+<p float="left">
+  <img src="assets/screenshot_eda3.png" width="45%" alt="EDA Dashboard 3" style="margin: 10px;"/>
+</p>
+</div>
+
+*Interactive visualizations showing temporal trends, geographic distribution, and pollutant correlations.*
+
 
 ### 2. Model Training & Evaluation
 <p float="left" align="center"> <img src="assets/screenshot_model1.png" width="45%" alt="Model Metrics"/> <img src="assets/screenshot_model2.png" width="45%" alt="Feature Importance"/> </p> <p float="left" align="center"> 
