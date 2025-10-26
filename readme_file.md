@@ -7,7 +7,7 @@ A comprehensive interactive web application for analyzing and predicting global 
 ## 📋 Dataset Details
 
 - **Filename:** `air_quality_global.csv`
-- **Total Records:** ~[Your actual count from dataset]
+- **Total Records:** 17,813
 - **Columns:** 10 (city, country, latitude, longitude, year, month, pm25_ugm3, no2_ugm3, data_quality, measurement_method, data_source)
 - **License:** CC0 (Public Domain)
 - **Metadata:** Complete dataset information available in `data/metadata.json`
@@ -51,15 +51,15 @@ Develop a machine learning model to predict PM2.5 concentration levels based on 
 ## 🚀 How to Run
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.11
 - pip package manager
 
 ### Installation Steps
 
-1. **Extract the ZIP file**
-   ```bash
-   unzip <StudentName><RollNumber>.zip
-   cd project_folder
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/iamthelearner/AirQualityProject.git
+    cd AirQualityProject
    ```
 
 2. **Create virtual environment (recommended)**
@@ -175,25 +175,25 @@ project_folder/
 
 #### Random Forest Performance
 - **Training Set:**
-  - R² Score: 0.9542
-  - RMSE: 8.43 μg/m³
-  - MAE: 5.21 μg/m³
+  - R² Score: 0.8963
+  - RMSE: 11.62 μg/m³
+  - MAE: 8.51 μg/m³
 
 - **Testing Set:**
-  - R² Score: 0.8876
-  - RMSE: 12.67 μg/m³
-  - MAE: 7.89 μg/m³
+  - R² Score: 0.7108
+  - RMSE: 19.69 μg/m³
+  - MAE: 13.09 μg/m³
 
 #### Gradient Boosting Performance
 - **Training Set:**
-  - R² Score: 0.9312
-  - RMSE: 10.21 μg/m³
-  - MAE: 6.45 μg/m³
+  - R² Score: 0.7658
+  - RMSE: 17.46 μg/m³
+  - MAE: 12.02 μg/m³
 
 - **Testing Set:**
-  - R² Score: 0.8654
-  - RMSE: 13.92 μg/m³
-  - MAE: 8.67 μg/m³
+  - R² Score: 0.7363
+  - RMSE: 18.81 μg/m³
+  - MAE: 12.92 μg/m³
 
 ### Feature Importance Rankings
 1. **NO2 concentration** (35.4%) - Strongest predictor
@@ -339,11 +339,11 @@ print(f"Number of features: {model.n_features_in_}")
 
 ### Core Libraries
 ```
-streamlit==1.28.0
-pandas==2.0.3
-numpy==1.24.3
-scikit-learn==1.3.0
-plotly==5.17.0
+streamlit==1.31.0
+pandas==2.1.4
+numpy==1.26.3
+scikit-learn==1.4.0
+plotly==5.18.0
 ```
 
 ### Complete Requirements
@@ -355,7 +355,7 @@ pip install -r requirements.txt
 ```
 
 **System Requirements:**
-- Python 3.8+
+- Python 3.11
 - 4GB RAM minimum (8GB recommended)
 - 500MB disk space
 - Modern web browser (Chrome, Firefox, Safari, Edge)
@@ -391,9 +391,9 @@ assert all(col in df.columns for col in expected_columns)
 **Roll Number:** 2301431530065  
 **Email:** vshishodia40@gmail.com
 **Institution:** IMS Engineering College 
-**Date:** 25 October 2025
+**Date:** 26 October 2025
 
-**Project Repository:** [GitHub URL if applicable]  
+**Project Repository:** https://github.com/iamthelearner/AirQualityProject.git  
 **Documentation:** This README and inline code comments
 
 ---
