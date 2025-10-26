@@ -253,11 +253,11 @@ Based on EPA Air Quality Index standards:
 ## 📸 Screenshots
 
 ### 1. Exploratory Data Analysis
-<p float="left" align="center"> <img src="assets/screenshot_eda1.png" width="45%" alt="EDA Dashboard 1"/> <img src="assets/screenshot_eda2.png" width="45%" alt="EDA Dashboard 2"/> </p> <p float="left" align="center"> <img src="assets/screenshot_eda3.png" width="45%" alt="EDA Dashboard 3"/> <img src="assets/screenshot_eda4.png" width="45%" alt="EDA Dashboard 4"/> </p>
+<p float="left" align="center"> <img src="assets/screenshot_eda1.png" width="45%" alt="EDA Dashboard 1"/> <img src="assets/screenshot_eda2.png" width="45%" alt="EDA Dashboard 2"/> </p> <p float="left" align="center"> <img src="assets/screenshot_eda3.png" width="45%" alt="EDA Dashboard 3"/> 
 *Interactive visualizations showing temporal trends, geographic distribution, and pollutant correlations*
 
 ### 2. Model Training & Evaluation
-<p float="left" align="center"> <img src="assets/screenshot_model1.png" width="45%" alt="Model Metrics"/> <img src="assets/screenshot_model2.png" width="45%" alt="Feature Importance"/> </p> <p float="left" align="center"> <img src="assets/screenshot_model3.png" width="45%" alt="Prediction vs Actual"/> </p>
+<p float="left" align="center"> <img src="assets/screenshot_model1.png" width="45%" alt="Model Metrics"/> <img src="assets/screenshot_model2.png" width="45%" alt="Feature Importance"/> </p> <p float="left" align="center"> 
 *Model metrics, feature importance, and prediction vs actual comparison*
 
 ### 3. Custom Prediction Interface
